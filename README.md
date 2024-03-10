@@ -41,6 +41,8 @@ This code can be found in the notebook in the examples directory
 <img src="https://github.com/cpashartis/MACE/assets/7492783/72a6aa77-684c-4ac8-a7c3-b3771290600d" width="400">
 
 ### After 28 Iterations
+We begin to converge to the set of 'thick' points defined by the data. It now looks more like a fermi surface :)
+
 <img src="https://github.com/cpashartis/MACE/assets/7492783/4d645166-f497-409d-a805-7fce1cb3f769" width="400">
 
 
