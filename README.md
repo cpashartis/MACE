@@ -2,7 +2,7 @@
 
 <img src="https://github.com/cpashartis/MACE/assets/7492783/ad964431-191d-44d3-99dd-ed4db25fccd1" width="400">
 
-MACE is a sophisticated algorithm designed to optimize and reconstruct surfaces from point clouds by leveraging the principles of configurational energy. This project encapsulates the core of what makes dynamic mesh adaptation possible, providing users with the tools to transform chaotic sets of points into structured, optimized meshes. Ideal for applications in computational geometry, graphics, and scientific visualization, MACE bridges the gap between raw data and actionable geometry. It was originally developped as a way to get a set of points defining a surface when given a set of points defining a 'thick' surface which would throw off any triangulation technique.
+MACE is a sophisticated algorithm designed to optimize and reconstruct surfaces from point clouds by leveraging the principles of configurational energy. This project encapsulates the core of what makes dynamic mesh adaptation possible, providing users with the tools to transform chaotic sets of points into structured, optimized meshes. Ideal for applications in computational geometry, graphics, and scientific visualization, MACE bridges the gap between raw data and geometry. It could also be potentially used as a remesher in the video game industry. It was originally developed as a way to get a set of points defining a surface when given a set of points defining a 'thick' surface which would throw off any triangulation technique.
 
 As it stands, it could use some optimization, but it is a proof of concept and demonstrates how simulated annealing can be used for such a purpose. Perhaps in the future adding a penalty to the objective function for points being too close is a good idea :)
 
@@ -41,6 +41,8 @@ This code can be found in the notebook in the examples directory
 <img src="https://github.com/cpashartis/MACE/assets/7492783/72a6aa77-684c-4ac8-a7c3-b3771290600d" width="400">
 
 ### After 28 Iterations
+We begin to converge to the set of 'thick' points defined by the data. It now looks more like a fermi surface :)
+
 <img src="https://github.com/cpashartis/MACE/assets/7492783/4d645166-f497-409d-a805-7fce1cb3f769" width="400">
 
 
